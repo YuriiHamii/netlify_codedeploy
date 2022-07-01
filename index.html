@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <meta http-equiv="X-UA-Compatible" content="ie=edge">
+           <title>CodeDeploy</title>
+
+           <link rel="stylesheet" href="css/style.css">
+           <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+       </head>
+       <body>
+       <!-- <h1>Hello world</h1>
+       <h2>Hello everybody in world1</h2> -->
+<!--           <img class="section-header-img" src="../img/marketika.png">-->
+             <!-- Header -->
+             <section class="section-outer section-header">                                                             <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-header-logo">CodeDeploy</div>
+                     <div class="section-header-content">
+                         <div class="section-header-wrapper">                                                            <!-- дополнительная обертка, элементы будут распологаться flex -->
+                             <div class="section-header-wrapper__title">DevOps on AWS</div>
+                             <div class="section-header-wrapper__subtitle">
+                                 Design cloud infrastructure that is secure, scalable, and highly available on AWS
+                             </div>
+                             <form action="">                                                                           <!-- Добавил тег Form для PhP если писать сообщения-->
+                             <div class="section-header-wrapper__form">                                                  <!-- Элементы формы в отдельные обертки, больше контроля над ними -->
+                                                                                                                         <!-- Добавил тег Form для PhP если писать сообщения , тег <form> сломал структуру, потому ,что дочерние элементы являются flex -->
+                                   <div class="section-header-wrapper__form-input">
+                                       <input type="text" placeholder="Your Name"/>
+                                   </div>
+                                   <div class="section-header-wrapper__form-input">
+                                       <input type="text" placeholder="Your Email"/>
+                                   </div>
+                                   <div class="section-header-wrapper__form-button">
+                                       <button class="btn-main">Get Started</button>
+                                   </div>
+                             </div>
+                             </form>
+                         </div>
+                     </div>
+                 </div>                                                                                                 <!-- Контент который центрируется -->
+             </section>
+             <!-- / Header-->
+
+             <!-- Promo 1 -->
+             <section class="section-outer section-promo" id = "projects">                                                              <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-promo-1">
+                         <div class="section-promo-1__content">
+                             <div class="title">
+                                 DevOps Services and Solutions
+                             </div>
+                             <div class="description-item">                                                             <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">Implemention DevOps with AWS offerings to increase
+								  security, scalability, reliability, and simplicity of the development processes.</div>
+                                 <div class="description-item__text">Automate and coordinate software development life cycle
+								 (SDLC) processes like development, security, testing, deployment with us, a DevOps on AWS solutions provider.</div>
+                             </div>
+                             <div class="description-item">                                                              <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">We create and automate CI/CD (continuous implementation and continuous delivery) pipelines. </div>
+                                 <div class="description-item__text">Looking to save time and money with DevOps on AWS solutions and services like agility, automation, continuity, and governance? Turn to us to implement
+								 DevOps on AWS best practices, including integration with cloud, AWS services: S3 Bucket and ElasticBeanStalk, GitHub Actions.</div>
+                             </div>
+                         </div>
+                         <div class="video ">
+                            <a class="video__link" href="https://youtu.be/39KpujlwLmw">
+                               <picture>
+                                <source srcset="https://i.ytimg.com/vi/JIbIYCM48to/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpsvSukRVi6lDt0tN1SRz333I6BA" type="image/webp">  <!--$0.currentSrc-->
+                                                                 
+                                <img class="video__media" src="https://i.ytimg.com/vi/39KpujlwLmw/maxresdefault.jpg" alt="video-test"> 
+                               </picture> 
+                            </a>           
+                            <button class="video__button" aria-label="Start video">
+                                <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" 
+                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+                            </button>   
+                         </div>
+                     </div>
+                 </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / Promo 1 -->
+
+
+
+             <!-- Promo 2 -->
+             <section class="section-outer section-promo">                                                              <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-promo-1">
+                         <div class="section-promo-1__content">
+                             <div class="title">
+                                 Creating a Docker container image for use on Amazon ECS
+                             </div>
+                             <div class="description-item">                                                             <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">Using Docker with AWS
+								 </div>
+                                 <div class="description-item__text">Docker Community Edition (CE) is an easy-to-deploy solution for
+								 building, assembling, and shipping container applications in AWS Cloud. Creating an EC2 instance running Ubuntu 22.04 and Docker CE. 
+									</div>
+                             </div>
+                             <div class="description-item">                                                              <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">Deploy Nginx, Tomcat with Docker</div>
+                                 <div class="description-item__text">Use the NGINX, Tomcat images from the Docker Hub repository 
+								 to easily deploy NGINX, Tomcat in Docker containers. Build and Deploy your own Docker Images to AWS using EC2.
+								 </div>
+                             </div>
+                         </div>
+                         <div class="video ">
+                            <a class="video__link" href="https://youtu.be/PNAnif6psG4">
+                               <picture>
+                                <source srcset="https://i.ytimg.com/vi/YDNSItBN15w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfvmBsCCxWdiDmxiatSFx-XshDA" type="image/webp">  <!--$0.currentSrc-->
+                                                                 
+                                <img class="video__media" src="https://i.ytimg.com/vi/PNAnif6psG4/maxresdefault.jpg" alt="video-test">  
+                               </picture> 
+                            </a>           
+                            <button class="video__button" aria-label="Start video">
+                                <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" 
+                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+                            </button>   
+                         </div>
+                     </div>
+                   </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / Promo 2 -->                   
+					 
+
+
+
+             <!-- Promo 3 -->
+             <section class="section-outer section-promo">                                                              <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-promo-1">
+                         <div class="section-promo-1__content">
+                             <div class="title">
+                                 Terraform is HashiCorp's infrastructure as code tool
+                             </div>
+                             <div class="description-item">                                                             <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">Using Terraform
+								 </div>
+                                 <div class="description-item__text">Using Terraform has several advantages over manually managing your infrastructure:
+									Terraform can manage infrastructure on multiple cloud platforms.
+									The human-readable configuration language helps you write infrastructure code quickly.
+									Terraform's state allows you to track resource changes throughout your deployments.
+									You can commit your configurations to version control to safely collaborate on infrastructure.
+									</div>
+                             </div>
+                             <div class="description-item">                                                              <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                                 <div class="description-item__title">Infrastructure as code (IaC)</div>
+                                 <div class="description-item__text">Infrastructure as code (IaC) tools allow you to manage infrastructure with configuration
+								 files rather than through a graphical user interface. IaC allows you to build, change, and manage your infrastructure in a safe,
+								 consistent, and repeatable way by defining resource configurations that you can version, reuse, and share.
+								 </div>
+                             </div>
+                         </div>
+                         <div class="video ">
+                            <a class="video__link" href="https://youtu.be/WupmC7oxI1U">
+                               <picture>
+                                <source srcset="https://i.ytimg.com/vi/RLwvMDgVU80/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAW-384mC5T0pf7LF2olZovq3xPCg" type="image/webp">  <!--$0.currentSrc-->
+                                                                 
+                                <img class="video__media" src="https://i.ytimg.com/vi/WupmC7oxI1U/maxresdefault.jpg" alt="video-test">  
+                               </picture> 
+                            </a>           
+                            <button class="video__button" aria-label="Start video">
+                                <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" 
+                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+                            </button>   
+                         </div>
+                     </div>                                                                                                                   <!-- Контент который центрируется -->
+             <!-- / Promo 3 --> 					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 <!-- Section 1 -->
+					 <div class="section-promo-2">                                                                        <!--внутри секции находятся три элемента -->
+                         <div class="description-item">                                                                   <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                             <div class="description-item__icon">
+                                 <img src="images/terraform.png" alt="icon-terraform" />
+                             </div>
+                             <div class="description-item__title">AWS - Terraform</div>
+                             <div class="description-item__text">Build, change, and destroy AWS infrastructure using Terraform.
+                                 Terraform Cloud allows teams to easily version, audit, and collaborate on infrastructure changes.
+							 </div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/jenkins.png" alt="icon-jenkins" />
+                             </div>
+                             <div class="description-item__title">AWS - Jenkins</div>
+                             <div class="description-item__text">Jenkins is an open-source automation server that integrates
+							 with a number of AWS Services, such as AWS CodeCommit, AWS CodeDeploy, Amazon EC2 Spot, and Amazon EC2 Fleet.
+							 </div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/gitlab.png" alt="icon-gitlab" />
+                             </div>
+                             <div class="description-item__title">AWS - GitLab</div>
+                             <div class="description-item__text">run GitLab on AWS and deploy to your workloads and AWS
+							 infrastructure using a single solution for everyone on your pipeline.
+                             </div>
+                         </div>			 
+					
+                     </div>
+					 
+					 <!-- Section 2 -->
+					     <div class="section-promo-2">                                                                        <!--внутри секции находятся три элемента -->
+                         <div class="description-item">                                                                   <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                             <div class="description-item__icon">
+                                 <img src="images/docker.png" alt="icon-docker" />
+                             </div>
+                             <div class="description-item__title">AWS - Docker</div>
+                             <div class="description-item__text">The Docker Compose CLI enables developers to use native Docker
+							 commands to run applications in Amazon Elastic Container Service (ECS) when building cloud-native applications.
+							 </div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/githubactions.png" alt="icon-githubactions" />
+                             </div>
+                             <div class="description-item__title">AWS - GitHub Actions</div>
+                             <div class="description-item__text">Integrating with GitHub Actions – CI/CD pipeline to deploy a Web App to Amazon EC2.
+                                 GitHub Actions is a feature that helps you automate your software development workflows.</div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/kubernetes.png" alt="icon-kubernetes" />
+                             </div>
+                             <div class="description-item__title">AWS - Kubernetes</div>
+                             <div class="description-item__text">Kubernetes is a tool that delivery of your containerized applications,
+							 and Amazon EKS removes the management overhead that Kubernetes does add to the equation.</div>
+                         </div>		
+						</div>
+
+					 <!-- Section 3 -->
+					     <div class="section-promo-2">                                                                        <!--внутри секции находятся три элемента -->
+                         <div class="description-item">                                                                   <!--внутри каждого item находятся иконка, текст и описание - ОПТИМИЗАЦИЯ, ПЕРЕИСПОЛЬЗУЕМ section-promo-2-->
+                             <div class="description-item__icon">
+                                 <img src="images/cloudformation.png" alt="icon-cloudformation" />
+                             </div>
+                             <div class="description-item__title">AWS - CloudFormation</div>
+                             <div class="description-item__text"> CloudFormation allows you to create and manage Amazon Web Services
+							 infrastructure deployments predictably and repeatedly.</div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/gnu_bash.png" alt="icon-gnu-bash" />
+                             </div>
+                             <div class="description-item__title">AWS - Bash</div>
+                             <div class="description-item__text">Bash-my-AWS is a simple and powerful set of CLI commands 
+							 for managing resources on Amazon Web Services.</div>
+                         </div>
+                         <div class="description-item">                                                                  <!--внутри каждого item находятся иконка, текст и описание -->
+                             <div class="description-item__icon">
+                                 <img src="images/python.png" alt="icon-python" />
+                             </div>
+                             <div class="description-item__title">AWS - Python</div>
+                             <div class="description-item__text">The AWS SDK for Python (Boto3) provides a Python API for AWS infrastructure services.</div>
+                         </div>				
+						 </div>
+                 </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / Promo 2 -->
+
+
+
+             <!-- founder -->
+             <section class="section-outer section-founder" id = "foto">                                                             <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-founder__img" >
+                         <img src="images/founder.png" alt="founder">
+                     </div>
+                     <div class="section-founder__content">
+                         <div class="section-founder__content-text">
+                             I aim to at automating the entire process of testing and deployment to reduce the amount of work that a developer needs to do.
+							 This makes it not only easier to build more products, but it also makes it faster to work on the changes and putting the new updates into the pipeline.
+							 AWS offers powerful cloud features which can help scale your application easily to millions of users. I live in Ukraine and open to working remotely. 
+                         </div>
+                         <div class="section-founder__content-name">
+                             Yurii Hamii
+                         </div>
+                         <div class="section-founder__content-post">
+                             DevOps Engineer
+                         </div>
+                     </div>
+                 </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / founder-->
+
+             <!-- plans -->
+             <section class="section-outer section-plans">                                                               <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-plans__title">Get Support
+					 </div>
+                     <div class="section-plans__subtitle">Choose your suitable works plans - DevOps on AWS
+                     </div>
+                     <div class="section-plans__list">
+                         <div class="section-plans__list-item active">                                                   <!-- Активный блок - выделен цветом и кнопкой -->
+                             <div class="section-plans__list-item_title">BASE - part time</div>
+                             <div class="section-plans__list-item_price"><span class="prefix">$10</span><span class="postfix">/per hour</span></div>    <!-- <span> inline элемент - в строчку располагаются -->
+                             <div class="section-plans__list-item_description">
+                                 Architect, Optimize, Migrate, CI/CD and Automation tasks.
+                                 
+                             </div>
+                             <div class="section-plans__list-item_button">                                               <!--Кнопка идет как ссылка, нет никакой формы -->
+                                 <a href="#" class="active-btn">Get Started</a>
+                             </div>
+                         </div>
+                         <div class="section-plans__list-item inactive">                                                          <!-- Неактивный блок - не выделен цветом и кнопкой -->
+                             <div class="section-plans__list-item_title">CONTRACT - full time</div>
+                             <div class="section-plans__list-item_price"><span class="prefix">$15</span><span class="postfix">/per hour</span></div>    <!-- <span> inline элемент - в строчку располагаются -->
+                             <div class="section-plans__list-item_description">
+                                 Architect, Optimize, Migrate, CI/CD and Automation tasks.
+                             </div>
+                             <div class="section-plans__list-item_button">                                              <!--Кнопка идет как ссылка, нет никакой формы -->
+                                 <a href="#" class="inactive-btn">Get Started</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / plans-->
+
+             <!-- free -->
+             <section class="section-outer section-free">                                                                <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-free__title">Select and utilize best-of-bread technologies in a modern Cloud Native architecture environment</div>
+                     <div class="section-free__description">DEVOPS SOLUTIONS AND SERVICES</br>
+						• Continuous Integration and Continuous Delivery
+						• Automated Testing
+						• Infrastructure Management									
+					</div>
+                     <div class="section-free__button">
+                         <a href="#" class="inactive-btn-free">Get Started</a>
+                     </div>
+                 </div>                                                                                                  <!-- Контент который центрируется -->
+             </section>
+             <!-- / free-->
+
+             <!-- footer -->
+             <section class="section-footer">                                                                   <!-- outer еще одна общая обертка -->
+                 <div class="section-inner">
+                     <div class="section-footer__logo">
+                         CodeDeploy
+                     </div>
+                     <ul class="section-footer__nav">
+                         <li><a href="#foto">About</a></li>
+						    <!--class=footer-active-->
+                         <li><a href="#projects">Projects</a></li>
+                    <!--     <li><a href="#">FAQ</a></li> -->
+                         <li><a href="#">BlogDeploy</a></li>
+                         <li><a href="#">Contact</a></li>
+                     </ul>
+                     <div class="section-footer__copyright_and_links">
+                         <div class="section-footer__copyright_and_links-copyright">Copyright © 2022 </div>
+                         <div class="section-footer__copyright_and_links-links">
+                     <ul class="helper-link">
+                         <li><a href="mailto:">codedeploycloud@gmail.com</a></li>
+                         <li><a href="https://web.telegram.org">Telegram:@yurii_hamii</a></li>
+                    <!--     <li><a href="#">Security</a></li> -->
+                     </ul>
+                         </div>
+                     </div>
+                 </div>                                                                                                 <!-- Контент который центрируется -->
+             </section>
+             <!-- / footer-->
+             <script src="video.js"></script>
+       </body>
+</html>
+
